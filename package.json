@@ -1,0 +1,14 @@
+{
+  "name": "stage-08-api-node",
+  "version": "1.0.0",
+  "description": "API developed in Rocketseat's Explorer class",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Otávia Bedeschi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
