@@ -31,7 +31,7 @@ class UsersController {
     const userWithUpdatedEmail = await database.get("SELECT * FROM users WHERE email = (?)", [email])
 
     if (userWithUpdatedEmail && userWithUpdatedEmail.id !== user_id){
-      throw new AppError ("This email already exists")
+      throw new AppError ("This email already exists.")
     }
 
     user.name = name ?? user.name
